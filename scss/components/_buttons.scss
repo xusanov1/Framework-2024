@@ -1,0 +1,62 @@
+.btn{
+    padding: 8px 14px;
+    border-radius:$br-3;
+    background: transparent;
+    border: 1px solid $text-primary;
+    color:$text-primary;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: $duration-primary;
+
+
+    &:hover{
+        opacity: 0.86;
+        a {
+          color: #fff;
+        }
+    }
+
+    &:focus{
+        outline: 3px solid $ring-primary;
+    }
+}
+
+.btn-outlined{
+    background:transparent;
+}
+
+.btn-primary{
+ background: $bg-primary;
+ color:$text-white;
+}
+
+.btn-secondary{
+    background: $bg-secondary;
+    color:$text-white;
+}
+
+.btn-success{
+    background: $bg-success;
+    color:$text-white;
+}
+
+.btn-danger{
+    background: $bg-danger;
+    color:$text-white;
+}
+
+.btn-warning{
+    background: $bg-warning;
+    color:$text-white;
+}
+
+.btn-info{
+    background: $bg-info;
+    color:$text-white;
+}
+
+.btn-dark{
+    background: $bg-dark;
+    color:$text-white;
+}
+   

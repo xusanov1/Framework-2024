@@ -1,0 +1,45 @@
+.input{
+    padding: 6px 12px;
+    border: 1.23px solid $bg-primary;
+    border-radius: $br-3;
+    transition: $duration-300;
+    font-family: sans-serif;
+
+    &:focus{
+        outline: 3px solid $ring-primary;
+    }
+}
+
+
+.input-success{
+    border: 1.23px solid $bg-success;
+    color:$text-primary;
+    &:focus{
+        outline: 3px solid $ring-success;
+    }
+}
+
+.input-error{
+    border: 1.23px solid $bg-danger;
+    color:$text-danger;
+    &:focus{
+        outline: 3px solid $ring-danger;
+    }
+}
+
+.input-warning{
+    border: 1.23px solid $bg-warning;
+    color:$text-primary;
+    &:focus{
+        outline: 3px solid $ring-warning;
+    }
+}
+
+.input-info{
+    border: 1.23px solid $bg-info;
+    color:$text-primary;
+    &:focus{
+        outline: 3px solid $ring-info;
+    }
+}
+

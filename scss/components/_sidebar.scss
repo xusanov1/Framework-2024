@@ -1,0 +1,28 @@
+$color_1: #818181;
+$color_2: #f1f1f1;
+$background-color_1: #111;
+
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	background-color: $background-color_1;
+	overflow-x: hidden;
+	padding-top: 20px;
+	a {
+		padding: 30px 6px 10px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: $color_1;
+		display: block;
+		&:hover {
+			color: $color_2;
+		}
+	}
+}
+.main {
+	margin-left: 200px;
+}

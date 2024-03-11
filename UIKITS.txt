@@ -1,0 +1,50 @@
+#### UI ELEMENTS 
+https://colorhunt.co/palette/22577a38a3a557cc9980ed99
+- button
+- input
+
+- select
+- list
+
+### content
+
+- card
+
+
+#### topography
+
+h1, h2, h3, h4, h5, h6
+p 
+small 
+a
+
+- line-height
+- font-size
+- font-weight
+- text-decoration
+- tex-color
+etc ..
+
+#### Utils
+
+- box-shadows
+- border-radius
+- margin
+- padding
+- width
+- height
+- flex
+- grid
+- bg
+
+
+#### media quries
+
+
+
+
+
+
+
+
+
