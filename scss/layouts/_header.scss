@@ -3,4 +3,17 @@ header{
     z-index: 1;
     width: 100%;
     top: 0;
+
+    a{
+        color: #ffffff;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .btn{
+        border: none;
+        i{
+            color: #ffff00;
+        }
+    }
 }

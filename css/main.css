@@ -842,6 +842,17 @@ header {
   width: 100%;
   top: 0;
 }
+header a {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+header .btn {
+  border: none;
+}
+header .btn i {
+  color: #ffff00;
+}
 
 .btn {
   padding: 8px 14px;
